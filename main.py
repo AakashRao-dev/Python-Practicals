@@ -46,3 +46,33 @@ student = {
 print(student["name"])
 print(student["age"])
 print(student["profession"])
+
+# MODIFYING DICTIONARIES
+
+# updating value of an element
+student["profession"] = "Software Enginner"
+
+# deleting an element
+del student["age"]
+
+# adding a new element
+student['roll no'] = 'empty'
+print("Modified Dict", student)
+
+
+# ITERATING OVER DICT ELEMENTS
+
+for key, value in student.items():
+    print(f'{key}, {value}')
+
+# DICTIONARY COMPREHENSION
+
+# Define the range of numbers
+start = 1
+end = 10
+
+# Create the dictionary using dictionary comprehension
+squares_dict = {num: num**2 for num in range(start, end + 1)}
+
+# Print the dictionary
+print(squares_dict)
