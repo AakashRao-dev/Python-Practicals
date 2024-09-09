@@ -1,4 +1,4 @@
-# PRACTICAL-3:
+# PRACTICAL-4:
 
 # Program to create a tuple and access its elements
 fruits = ( "apple", "banana", "cherry", "date")
